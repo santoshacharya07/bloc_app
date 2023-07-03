@@ -8,16 +8,16 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Screen"),
+        title: const Text("Home Screen"),
       ),
       body: Center(
         child: TextButton(
           onPressed: () {
             Navigator.push(context, MaterialPageRoute(builder: (context) {
-              return ProductScreen();
+              return const ProductScreen();
             }));
           },
-          child: Text(
+          child: const Text(
             "Get Products",
             style: TextStyle(fontSize: 22),
           ),

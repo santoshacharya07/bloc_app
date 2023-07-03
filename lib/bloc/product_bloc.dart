@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 
-import 'package:learning_bloc/repo/rpoducts_repo.dart';
+import 'package:learning_bloc/repo/poducts_repo.dart';
 import '../models/product_model.dart';
 
 part 'product_event.dart';
